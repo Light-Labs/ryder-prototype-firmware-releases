@@ -12,32 +12,33 @@ For testing without a device, the Ryder Simulator can be used. It uses the same 
 <details>
 	<summary>Linux/Mac</summary>
 
-	```jsx
-	$ ./ryder-sim-v2-linux-x86_64
+```jsx
+$ ./ryder-sim-v2-linux-x86_64
 
-	RyderProto_V2 Simulator starting.
-	Opened virtual serialport on: /dev/pts/4
-	idle
-	```  
-	The serial port in the example above is `/dev/pts/4`. It can differ per system.
-	
-	You should see a window of the simulator.
+RyderProto_V2 Simulator starting.
+Opened virtual serialport on: /dev/pts/4
+idle
+```
+
+The serial port in the example above is `/dev/pts/4`. It can differ per system.
+
+You should see a window of the simulator.
 </details>
 
 <details>
 	<summary>Windows</summary>
 	
-	For Windows users: use a virtual com driver (e.g. com0com) to create a com-port pair (for example: COM12 <-> COM13) and launch the Ryder Simulator from a PowerShell window:
-	
-	```jsx
-	ryder-sim-v2-windows-x86_64.exe COM12
+For Windows users: use a virtual com driver (e.g. com0com) to create a com-port pair (for example: COM12 <-> COM13) and launch the Ryder Simulator from a PowerShell window:
 
-	RyderProto_V2 Simulator starting.
-	Connected to \\.\COM12
-	idle
-	```
-	
-	You should see a window of the simulator.
+```jsx
+ryder-sim-v2-windows-x86_64.exe COM12
+
+RyderProto_V2 Simulator starting.
+Connected to \\.\COM12
+idle
+```
+
+You should see a window of the simulator.
 </details>
 
 
