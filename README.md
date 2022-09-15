@@ -66,4 +66,8 @@ yarn build
 ![chrome extension](https://user-images.githubusercontent.com/1449049/188821791-01ff2f70-0a41-4b14-82b5-960677307b64.png)
 
 ## Using the Ryder Edition of Hiro Stacks Wallet (extension)
-First time using the simulator, you need to setup the device with a Secret Key.
+First time using the simulator, you need to setup the device with a Secret Key. The simulator is not save, do not use the Secret Key for anything else than testing. Follow the flow on the device after clicking "Setup Ryder device".
+
+Once the simulator is setup, use the "Connect your Ryder" link.
+	
+![image](https://user-images.githubusercontent.com/1449049/190499763-4c25a91c-752f-456b-969b-3a276d11a41d.png)
