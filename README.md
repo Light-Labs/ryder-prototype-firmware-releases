@@ -33,14 +33,16 @@ Your device should now be up-to-date.
 <details>
 	<summary>Windows</summary>
 
-1. Download the "setup.ps1" script file from the "Commands/Windows" directory.
+1. Download the scripts. This can be done via the "Code > Download ZIP" option on GitHub.
 2. Plug in your device and find its serial port (COM Port on Windows).
-3. Run the following command from Windows PowerShell to setup your device:
+3. Using the "setup.ps1" script file from the "commands/windows" directory:
+	
+	Run the following command from Windows PowerShell to setup your device:
 	```jsx
 	setup.ps1 SERIAL_PORT
 	// Where SERIAL_PORT is the serial port (e.g. COM6).
 	```
-4. This will prompt the setup process on your device. Follow all steps as displayed to complete the setup.
+5. This will prompt the setup process on your device. Follow all steps as displayed to complete the setup.
 
 Your device should now be setup and ready to use.
 </details>
